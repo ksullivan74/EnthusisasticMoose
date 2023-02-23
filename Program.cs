@@ -19,10 +19,10 @@ void Main()
 
 
     // Ask some questions
-    //CanadaQuestion();
-    //EnthusiasticQuestion();
-    //LoveCSharpQuestion();
-    //SecretQuestion();
+    CanadaQuestion();
+    EnthusiasticQuestion();
+    LoveCSharpQuestion();
+    SecretQuestion();
 
 }
 
@@ -84,7 +84,7 @@ bool MooseAsks(string question)
     }
 }
 
-/*
+
 void CanadaQuestion()
 {
     bool isTrue = MooseAsks("Is Canada real?");
@@ -136,7 +136,6 @@ void SecretQuestion()
         MooseSays("Oh, no...secrets are the best, I love to share them!");
     }
 }
-*/
 
 void MagicMoose()
 {
